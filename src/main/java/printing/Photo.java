@@ -7,6 +7,7 @@ public class Photo implements Printable{
         this.desctiption = photo;
     }
 
+
     @Override
     public void print() {
         System.out.printf("Photo printed in color: " + desctiption);
